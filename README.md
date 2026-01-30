@@ -8,7 +8,7 @@ Note: This is a portfolio project currently using mock HR data to demonstrate fr
 
 🚀 Live Demo
 
-👉 View Live Demo￼
+https://hr-dashboard-gray.vercel.app
 
 ⸻
 
@@ -27,77 +27,94 @@ The emphasis is on clarity, usability, and decision support, rather than surface
 ✨ Key Features
 
 Core Functionality
-	•	Authentication System
+
+Authentication System
 Secure login flow with session persistence and automatic expiration
-	•	Employee Management
+
+Employee Management
 Centralized employee table with search, filtering, and sorting
-	•	Analytics & Metrics
+
+Analytics & Metrics
 Interactive charts and summary cards for workforce insights
-	•	Responsive Design
+
+Responsive Design
 Mobile-first layout built with Tailwind CSS
-	•	Theme System
+
+Theme System
 Light, dark, and system-based theme preferences with persistence
 
 Advanced UI Features
-	•	Real-Time Search
+
+Real-Time Search
 Filter employees by name, email, department, or role
-	•	Advanced Filtering & Sorting
+
+Advanced Filtering & Sorting
 Department and status filters with configurable sort options
-	•	CSV Export
+
+CSV Export
 Export filtered employee data for reporting or audits
-	•	Settings Panel
+
+Settings Panel
 User preferences for theme, pagination, and display behavior
-	•	Error Handling & Loading States
+
+Error Handling & Loading States
 Graceful error boundaries and skeleton loaders
-	•	Performance Optimizations
+
+Performance Optimizations
 Lazy-loaded routes and efficient component rendering
 
 ⸻
 
 🛠️ Tech Stack
-	•	Frontend: React 19, Vite 7
-	•	Styling: Tailwind CSS 3.4
-	•	Routing: React Router DOM 7
-	•	Charts: Recharts
-	•	Icons: Lucide React
-	•	Tooling: ESLint, Vite build pipeline
+
+Frontend: React 19, Vite 7
+Styling: Tailwind CSS 3.4
+Routing: React Router DOM 7
+Charts: Recharts
+Icons: Lucide React
+Tooling: ESLint, Vite build pipeline
+
+⸻
 
 📦 Local Setup
 
-git clone https://github.com/chelsbun/hr-dashboard.git
-cd hr-dashboard
+Clone the repository
+https://github.com/chelsbun/hr-dashboard
+
+Install dependencies
 npm install
+
+Run development server
 npm run dev
 
-Open in browser:
+Open in browser
 http://localhost:5173
+
+⸻
 
 🚀 Deployment
 
-The application is deployed using Vercel, leveraging automatic builds for Vite-based projects. 
+The application is deployed using Vercel, leveraging automatic builds for Vite-based projects.
 
+Build for production
 npm run build
+
+Preview production build
 npm run preview
+
+⸻
 
 📁 Project Structure
 
 src/
-├── components/          # Reusable UI components
-│   ├── ErrorBoundary.jsx
-│   ├── Layout.jsx
-│   ├── MetricCard.jsx
-│   ├── EmployeeList.jsx
-│   └── Charts/
-├── pages/               # Route-level views
-│   ├── Dashboard.jsx
-│   ├── Employees.jsx
-│   ├── Analytics.jsx
-│   ├── Settings.jsx
-│   └── Login.jsx
-├── contexts/            # Global state (theme, auth)
-├── data/                # Mock HR datasets
-├── App.jsx
-└── main.jsx
+components/ – reusable UI components
+pages/ – route-level views
+contexts/ – global state (theme, auth)
+data/ – mock HR datasets
+App.jsx
+main.jsx
+
+⸻
 
 📊 Data & State
 	•	Uses mock HR datasets to simulate realistic workforce information
@@ -108,14 +125,16 @@ src/
 
 🔮 Planned Enhancements
 
-This project is actively evolving. Planned additions include:
-	•	Real Database Integration
-Replacing mock datasets with a relational database (e.g., PostgreSQL) to support persistent employee records and reporting
-	•	Backend API Layer
-Introducing a Node.js-based API for authentication, data access, and business logic
-	•	Role-Based Access Control (RBAC)
+Real Database Integration
+Replace mock datasets with a relational database (e.g., PostgreSQL)
+
+Backend API Layer
+Node.js API for authentication, data access, and business logic
+
+Role-Based Access Control (RBAC)
 Differentiated access for HR administrators, managers, and standard users
-	•	Scalable Data Models
+
+Scalable Data Models
 Normalized schemas designed for growth, audits, and compliance-driven reporting
 
 These enhancements are intended to more closely mirror production HRIS and healthcare IT systems.
@@ -123,7 +142,7 @@ These enhancements are intended to more closely mirror production HRIS and healt
 ⸻
 
 🎯 What This Project Demonstrates
-	•	Building internal-facing enterprise tools, not just consumer apps
+	•	Building internal-facing enterprise tools
 	•	Translating business and compliance needs into usable UI
 	•	Clean component architecture and separation of concerns
 	•	Deployment, performance awareness, and polish
@@ -135,8 +154,9 @@ These enhancements are intended to more closely mirror production HRIS and healt
 
 Chelsea Bonyata
 B.S. Computer Science — University of Houston–Downtown
-	•	GitHub: https://github.com/chelsbun
-	•	Live Demo: https://hr-dashboard-gray.vercel.app
+
+GitHub: https://github.com/chelsbun
+Live Demo: https://hr-dashboard-gray.vercel.app
 
 ⸻
 
