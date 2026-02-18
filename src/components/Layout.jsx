@@ -14,7 +14,7 @@ import {
   LogOut
 } from 'lucide-react'
 
-function Layout({ children }) {
+function Layout({ children, onLogout }) {
   const [sidebarOpen, setSidebarOpen] = useState(false)
   const location = useLocation()
 
@@ -43,7 +43,7 @@ function Layout({ children }) {
   // Handle logout
   const handleLogout = () => {
     localStorage.removeItem('hr-dashboard-auth')
-    window.location.href = '/login'
+    onLogout() // Update parent auth state immediately
   }
 
   const navigation = [

@@ -85,7 +85,7 @@ function App() {
               path="/*" 
               element={
                 isAuthenticated ? (
-                <Layout>
+                <Layout onLogout={() => setIsAuthenticated(false)}>
                   <Suspense fallback={
                     <div className="space-y-4 sm:space-y-6">
                       <div className="h-8 bg-gray-200 dark:bg-gray-700 rounded w-48 animate-pulse"></div>
